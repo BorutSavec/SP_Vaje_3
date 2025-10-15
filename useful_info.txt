@@ -1,0 +1,17 @@
+sou faj ndodatek je da poznas 
+git add . //tole doda celo mapo da ni treba posebi addat usake pred pushem
+
+git add + git commit tole updata na tvojem local repozitoriju, da dobis tole
+v globalen repozitorij mors to pushat z git push (pa opcijsko specifikacija kam 2 be shur)
+
+git pull ti omogoca da updatas tvojo verzijo sharanih datotek v githubu. sam paz git ne preverja ce so spremembe
+za to da gre preverit mors runnat git fetch
+
+ce 2 folka nardita local spremembo, ki sta nekompatibilni(na istem delu kode npr) je to lah problem
+temu se rece konflikt, in jih je mozno/treba resit manualy. prej mas obpcijo rebase, ka uposteva oba comita, 
+proba ju dat enga prej in druzga pol da ni konflikta, ampak to ni vedn mozno, za to je merdge opcija - nardi nou autocomit,
+ki je nova verzija po merdgu.
+
+web storm je lih pr resevanju konfliktou bolsi
+
+na gitu se to kaze kot da mas main vejo in pol gre vn ena side veja
